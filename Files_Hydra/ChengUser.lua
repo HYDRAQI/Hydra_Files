@@ -9,7 +9,7 @@ local HydraChengUserName = database:get(bot_id.."Hydra:Cheng:UserName"..data.id_
 if not data.username_ then 
 if HydraChengUserName then 
 send(msg.chat_id_, msg.id_, 1, "حذف معرفه خمطو بساع بساع  \n هاذه معرفه  : [@"..HydraChengUserName..']')
-database:del(bot_id.."Tshake:Cheng:UserName"..data.id_) 
+database:del(bot_id.."Hydra:Cheng:UserName"..data.id_) 
 end
 end
 if data.username_ then 
