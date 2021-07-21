@@ -6,7 +6,7 @@ send(msg.chat_id_, msg.id_,'☑┇تم تفعيل امر صيح')
 return false
 end
 if text == 'تعطيل صيح' and Owner(msg) then  
-database:set(bot_id..'Tshake:Seh:User'..msg.chat_id_,true)  
+database:set(bot_id..'Hydra:Seh:User'..msg.chat_id_,true)  
 send(msg.chat_id_, msg.id_,'☑┇تم تعطيل امر صيح') 
 return false
 end
